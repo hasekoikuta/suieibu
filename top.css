@@ -1,0 +1,70 @@
+@charset "SHIFT-JIS";
+.infobox{/* 新着情報エリアの幅 */
+height:240px;
+font-size: 80%;
+overflow:scroll;
+-webkit-overflow-scrolling:touch;
+border:1px solid #2996FF;
+}
+
+
+.infobox dl {
+width: 100%;
+margin: 0;
+border-top: 1px #85B6EE dotted;
+}
+
+.infobox dt {
+width: 6.7em;
+float: left;
+padding: 7px 0 6px 10px;
+line-height: 120%;
+}
+
+.infobox dd {
+margin: 0;
+padding: 7px 3px 6px 6.6em;
+border-bottom: 1px #85B6EE dotted;
+line-height: 120%;
+}
+
+.clearFix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearFix {
+min-height: 1px;
+}
+
+
+@media screen and (min-width:600px){
+.main{
+  padding-top:40px;
+}
+.hello{
+  line-height: 200%;
+  height:284px;
+  padding:50px 0px;
+  margin-left:550px;
+}
+#info{
+  margin-bottom:40px;
+}
+.info{
+  width:450px;
+  float:left;
+}
+}
+@media screen and (max-width:600px){
+.menu-title{
+  padding-top:24px;
+}
+.hello{
+  padding:0px 10px 20px 10px;
+}
+div.infobox{
+width:100%; /* 新着情報エリアの幅 */
+}

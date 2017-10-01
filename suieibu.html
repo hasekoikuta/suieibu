@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]> 
+<script src="js/html5shiv.js"></script>
+<![endif]--><html lang="ja"><head>
+ <meta charset="utf-8">
+ <title>戸山高校水泳部ー東京都立戸山高等学校ホームページ</title>
+ <meta name="title" content="戸山高校水泳部ー東京都立戸山高等学校ホームページ">
+ <meta name="description" content="戸山高校水泳部オフィシャルウェブサイトです。">
+ <meta name="keywords" content="戸山高校,戸山,水泳部,水泳,戸山高校水泳部,戸山水泳部">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="normalize.css">
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="drawer.min.css">
+ <link rel="stylesheet" href="top.css">
+ <link rel="stylesheet" href="slideshow.css" type="text/css">
+</head>
+<body class="drawer drawer--top drawer--navbarTopGutter" oncontextmenu="return false">
+  <div class="container">
+    <header class="drawer-navbar drawer-navbar--fixed" role="banner">
+      <div class="drawer-container">
+        <div class="drawer-navbar-header">
+          <a class="drawer-brand" href="suieibu.html"><img src="toyama2.jpg" class="headerpic2"><img src="toyama1.png" class="headerpic1"></a>
+          <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+          </button>
+        </div>
+        <nav class="drawer-nav" role="navigation">
+          <ul class="drawer-menu">
+            <li><a  class="drawer-dropdown-menu-item" href="suieibu.html">水泳部TOP</a></li>
+            <li><a  class="drawer-dropdown-menu-item" href="swim_info/katsudo.html">水泳部について</a></li>
+            <li><a  class="drawer-dropdown-menu-item" href="record/record.html">活動実績</a></li>
+            <li><a  class="drawer-dropdown-menu-item" href="http://www.toyama-h.metro.tokyo.jp/top/top.html">戸山高校 TOP</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="main">
+      <div id="slideshow">
+        <p class="active"><img src="index01.jpg"></p>
+        <p><img src="index02.jpg"></p>
+        <p><img src="index03.jpg"></p>
+        <p><img src="index04.jpg"></p>
+        <p><img src="index05.jpg"></p>
+        <p><img src="index06.jpg"></p>
+        <p><img src="index07.jpg"></p>
+      </div>
+      <div class="hello">
+        <p>ようこそ！<br>こちらは東京都立戸山高等学校水泳部の<br>オフィシャルウェブサイトです。<br>上のメニューからお好きなページをご覧ください。</p>
+      </div>
+      <div id="info">
+        <div class="info">
+          <h2>最新実績</h2>
+          <p>２０１７年度　東京都高等学校春季水泳競技大会<br>男子１００ｍ背泳ぎ　<b>決勝進出！</b></p>
+          <p>２０１６年度　東京都高等学校春季水泳競技大会<br>男子５０ｍ自由形　<b>第３位！</b></p>
+          <p>２０１５年度　東京都高等学校新人水泳競技大会<br>男子１００ｍ自由形　<b>決勝進出！</b></p>
+          <p><a href="record/record.html#01">歴代十傑はこちら</a></p>
+        </div>
+        <div class="info">
+          <h2>お知らせ・更新記録</h2>
+            <div class="infobox">
+              <dl class="claerFix">
+              <dt>2017/08/25</dt>
+              <dd><a href="record/relay.pdf">十傑リレー</a>の更新を行いました！</dd>
+              <dt>2017/08/25</dt>
+              <dd><a href="record/individual.pdf">十傑個人</a>の更新を行いました！</dd>
+              <dt>2016/11/08</dt>
+              <dd>写真の更新をしました</dd>
+              <dt>2016/11/08</dt>
+              <dd>部員数の更新をしました</dd>
+              <dt>2016/11/08</dt>
+              <dd>十傑の更新をしました</dd>
+              <dt>2016/11/07</dt>
+              <dd>レスポンシブデザインに変更しました！</dd>
+              <dt>2016/11/06</dt>
+              <dd>大幅リニューアルを行いました！</dd>
+              <dt>2015/10/20</dt>
+              <dd>部員数・十傑・写真などを更新しました！</dd>
+              <dt>2015/10/20</dt>
+              <dd>直近４年間の大会実績を追加掲載しました！</dd>
+              <dt>2015/06/01</dt>
+              <dd>大幅リニューアルしました！</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="suieibu.html">水泳部 TOP</a></li>
+          <li><a href="swim_info/katsudo.html">水泳部について</a></li>
+          <li><a href="record/record.html">活動実績</a></li>
+          <li><a href="gallery/gallery.html">活動報告</a></li>
+          <li><a href="http://www.toyama-h.metro.tokyo.jp/top/top.html">戸山高校 TOP</a></li>
+        </ul>
+      </div>
+      <div class="copyright">Copyright &copy; 2017 戸山高校水泳部 All rights reserved.</div>
+    </footer>
+  </div>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="iscroll.js"></script>
+</script>
+<script src="drawer.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+  </script>
+ <script type="text/javascript">
+function slideSwitch() {
+   var $active = $('#slideshow p.active');
+
+   if ( $active.length == 0 ) $active = $('#slideshow p:last');
+
+   var $next =  $active.next().length ? $active.next()
+      : $('#slideshow p:first');
+
+   $active.addClass('last-active');
+
+   $next.css({opacity: 0.0})
+      .addClass('active')
+      .animate({opacity: 1.0}, 1000, function() {
+         $active.removeClass('active last-active');
+      });
+}
+
+$(function() {
+   setInterval( "slideSwitch()", 5000 );
+});
+ </script>
+</body>
+</html>
