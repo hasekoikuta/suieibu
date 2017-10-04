@@ -4,6 +4,7 @@
   padding:10px 5px;
   font-size:12px;
 }
+
 #sidebar{
   background-color:#efefef;
   overflow:hidden;
@@ -21,6 +22,12 @@ p{
 }
 
 @media screen and (min-width:600px){
+.stamp{
+  display:block;
+  padding:13px 0 25px 40px;
+  font-size:13px;
+}
+
 .menu-side{
   display:none;
 }

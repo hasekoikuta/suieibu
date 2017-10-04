@@ -2,7 +2,7 @@
 .infobox{/* 新着情報エリアの幅 */
 height:240px;
 font-size: 80%;
-overflow:scroll;
+overflow-y:scroll;
 -webkit-overflow-scrolling:touch;
 border:1px solid #2996FF;
 }
